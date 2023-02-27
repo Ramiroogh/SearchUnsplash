@@ -1,16 +1,15 @@
 import './App.css'
-import SearchBox from './SearchBox'
+import Search from "./Search";
 
-function App() {
-
+const App = () => {
 
   return (
-    <div className="App">
+    <div>
 
-      <SearchBox/>
+     <Search/>  
 
     </div>
+  );
+};
 
-  )
-}
-export default App
+export default App;
